@@ -1,0 +1,71 @@
+.hiya {
+  font-size: 6vh !important;
+  position: relative;
+  left: 100px !important;
+}
+
+@media only screen and (max-width: 766px) {
+  .hiya {
+    font-size: 3vh !important;
+    position: relative;
+    left: 40px !important;
+  }
+  .hero-content {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 921px) {
+  .hiya {
+    // font-size: 3vh !important;
+    position: relative;
+    left: calc(100% - 90%) !important;
+  }
+  .hero-content {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 756px) {
+  .hiya {
+    font-size: 5vh !important;
+    position: relative;
+    left: calc(100% - 93%) !important;
+  }
+  .hero-content {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .hiya {
+    font-size: 5vh !important;
+    position: relative;
+    left: calc(100% - 95%) !important;
+  }
+  .hero-content {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hiya {
+    font-size: 4vh !important;
+    position: relative;
+    left: calc(100% - 95%) !important;
+  }
+  .hero-content {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hiya {
+    font-size: 2vh !important;
+    position: relative;
+    left: calc(100% - 85%) !important;
+  }
+  .hero-content {
+    padding-top: 100px;
+  }
+}
