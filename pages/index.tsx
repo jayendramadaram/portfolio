@@ -193,7 +193,8 @@ const Home: NextPage = () => {
                 <Image src={rs} alt="MongoDB" width={100} className="mt-7" />
                 <Image src={truffle} alt="MongoDB" height={100} className="mt-7" />
                 <Image src={hardhat} alt="MongoDB" height={70} className="mt-7" />
-                <Image src={Selenium} alt="Selenium" height={70} className="mt-7" />
+                {/* <Image src={Selenium} alt="Selenium" height={70} className="mt-7" /> */}
+                <img src="https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/selenium.png" alt="Git" className="h-32" />
               </div>
             </div>
           </div>
