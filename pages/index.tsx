@@ -14,6 +14,7 @@ import py from "../assets/py.png"
 import rs from "../assets/rs.png"
 import truffle from "../assets/truffle.png"
 import hardhat from "../assets/hardhat.png"
+import Selenium from "../assets/selenium.png"
 import { Projects } from '../constants'
 import { useRouter } from 'next/router'
 
@@ -188,10 +189,11 @@ const Home: NextPage = () => {
                 <img src="https://harshgoel.me/images/skills/git.svg" alt="Git" className="h-14 mt-7" />
                 <Image src={docker} alt="MongoDB" width={200} className="mt-7" />
                 <Image src={graphql} alt="MongoDB" width={200} className="mt-7" />
-                <Image src={py} alt="MongoDB" width={200} className="mt-7" />
+                <Image src={py} alt="MongoDB" width={100} className="mt-7" />
                 <Image src={rs} alt="MongoDB" width={100} className="mt-7" />
                 <Image src={truffle} alt="MongoDB" height={100} className="mt-7" />
                 <Image src={hardhat} alt="MongoDB" height={70} className="mt-7" />
+                <Image src={Selenium} alt="Selenium" height={70} className="mt-7" />
               </div>
             </div>
           </div>
