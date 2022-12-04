@@ -14,10 +14,13 @@ import py from "../assets/py.png"
 import rs from "../assets/rs.png"
 import truffle from "../assets/truffle.png"
 import hardhat from "../assets/hardhat.png"
+import { Projects } from '../constants'
+import { useRouter } from 'next/router'
 
 
 
 const Home: NextPage = () => {
+  const router = useRouter()
   const [scrolledEnd, setscrolledend] = useState<boolean>(false);
   const [canScroll, setcanScroll] = useState<boolean>(false);
   const [shrink, setshrink] = useState<boolean>(true);
@@ -210,22 +213,24 @@ const Home: NextPage = () => {
                 }
 
               }}>
-                <div className=''>
-                  <div className='rounded-xl mt-5 z-10 transition-all delay-75 duration-200 hover:bg-gray-700 hover:scale-105 cursor-pointer pb-3 space-y-1 w-96 border '>
-                    <img src='https://braydentw.io/static/projects/yei-learn.png' className='p-3 rounded-xl overflow-hidden' />
-                    <div className='px-4 space-y-2'>
-                      <div className='text-2xl font-serif font-bold '>HyperLedger Based Real Estate Protocol.</div>
-                      <div className='text-slate-300 italic text-justify'>&nbsp;&nbsp;&nbsp;&nbsp; Project Focuses on decentralizing real estate stuff and stuf like blah blah blah was a good project indeed tho to show on top of resume hehe</div>
-                      <div className='flex flex-wrap list-none'>
-                        <li className='px-4 py-2 mt-2 mr-2  bg-labels rounded-lg text-slate-100 font-bold '>Typescript</li>
-                        <li className='px-4 py-2 mt-2 mr-2  bg-labels rounded-lg text-slate-100 font-bold '>React</li>
-                        <li className='px-4 py-2 mt-2 mr-2  bg-labels rounded-lg text-slate-100 font-bold '>TailWind</li>
-                        <li className='px-4 py-2 mt-2 mr-2  bg-labels rounded-lg text-slate-100 font-bold '>Fabric</li>
-                        <li className='px-4 py-2 mt-2 mr-2  bg-labels rounded-lg text-slate-100 font-bold '>Nextjs</li>
+                {
+                  Projects.map((elem, index) => (
+                    <div className='' key={index} onClick={() => router.push(elem.Link)}>
+                      <div className='rounded-xl mt-5 z-10 transition-all delay-75 duration-200 hover:bg-gray-700 hover:scale-105 cursor-pointer pb-3 space-y-1 w-96 border '>
+                        <img src={`${elem.imgLink}`} height={30} width={900} className='p-3 rounded-xl overflow-hidden' />
+                        <div className='px-4 space-y-2'>
+                          <div className='text-2xl font-serif font-bold '>{elem.name}</div>
+                          <div className='text-slate-300 italic text-justify'>&nbsp;&nbsp;&nbsp;&nbsp; {elem.description}</div>
+                          <div className='flex flex-wrap list-none'>
+                            {elem.tags.map((ele, index) => (
+                              <li key={index} className='px-3 py-1 mt-2 mr-2  bg-labels rounded-lg text-slate-100 font-bold '>{ele}</li>
+                            ))}
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </div>
+                  ))
+                }
               </div>
             </div>
           </div>
@@ -249,6 +254,7 @@ export default Home
           <BsTwitter className='w-8 h-8 cursor-pointer text-violet-100' />
         </div>
         <div>
+
           hi there
         </div>
       </div>
