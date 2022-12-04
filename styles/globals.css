@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+.about__me {
+  aspect-ratio: 1/1;
+  background: linear-gradient(45deg, transparent, #4db5ff, transparent);
+  border-radius: 2rem;
+  display: grid;
+  place-items: center;
+}
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.hidescroll::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal {
+  scroll-direction: horizontal;
+  transform: rotate(-90deg);
+  transform-origin: right top;
+  transform: rotate(-90deg) translateY(-100px);
+}
+
+.horizontal > div {
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
