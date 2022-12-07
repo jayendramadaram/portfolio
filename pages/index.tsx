@@ -153,7 +153,7 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className='flex  justify-center items-center xl:w-1/2 '>
-              <img className=' bg-pink-50 w-96 sm:w-w5p  rotate-12 z-20 rounded-3xl hover:rotate-0 transition-all cursor-pointer delay-75 duration-200' height={450} src="https://i.pinimg.com/474x/e6/f8/82/e6f882c4d35c48b0e84dabcb3ded700f.jpg" alt="Jayendra Madaram" />
+              <img className=' bg-pink-50 w-96 sm:w-w5p  rotate-12 z-20 rounded-3xl hover:rotate-0 transition-all cursor-pointer delay-75 duration-200' height={450} src="https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/avatar.png" alt="Jayendra Madaram" />
               <div className='hidden sm:grid absolute about__me  sm:w-w5p rounded-3xl z-10'></div>
               <img src="https://harshgoel.me/images/vectors/ellipse.svg" alt="Triangle 3d Vector" className="absolute  bottom-0 right-0 hidden w-1/4 z-0 md:block "></img>
             </div>
