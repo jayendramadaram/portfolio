@@ -17,7 +17,7 @@ import rs from "../assets/rs.png"
 import truffle from "../assets/truffle.png"
 import hardhat from "../assets/hardhat.png"
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-
+import Naruto from "../assets/Naruto.jpg"
 
 import { Projects } from '../constants'
 import { useRouter } from 'next/router'
