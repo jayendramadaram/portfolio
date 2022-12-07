@@ -17,7 +17,7 @@ import rs from "../assets/rs.png"
 import truffle from "../assets/truffle.png"
 import hardhat from "../assets/hardhat.png"
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import Naruto from "../assets/Naruto.jpg"
+// import Naruto from "../assets/Naruto.jpg"
 
 import { Projects } from '../constants'
 import { useRouter } from 'next/router'
@@ -125,7 +125,7 @@ const Home: NextPage = () => {
                     <div className='text-transparent text-lg font-semibold bg-clip-text bg-gradient-to-r  from-purple-400 to-pink-400'>Who Am i ?</div>
                   </div>
                   <div className='flex space-x-6 sm:items-baseline justify-center items-center'>
-                    <h1 className='font-sans sm:text-4xl text-2xl md:text-5xl font-bold sm:ml-0 '>Jayendra Madara</h1>
+                    <h1 className='font-sans sm:text-4xl text-2xl md:text-5xl font-bold sm:ml-0 '>Jayendra Madaram</h1>
                     <img src="https://harshgoel.me/images/vectors/triangle.svg" alt="Triangle 3d Vector" className=" hidden xl:block  w-2/3 md:w-16 animate-spin-slow"></img>
                   </div>
                 </div>
@@ -153,7 +153,7 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className='flex  justify-center items-center xl:w-1/2 '>
-              <img className=' bg-pink-50 w-96 sm:w-w5p  rotate-12 z-20 rounded-3xl hover:rotate-0 transition-all cursor-pointer delay-75 duration-200' height={450} src="https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/avatar.png" alt="Jayendra Madaram" />
+              <img className=' bg-pink-50 w-96 sm:w-w5p  rotate-12 z-20 rounded-3xl hover:rotate-0 transition-all cursor-pointer delay-75 duration-200' height={450} src="https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/Naruto.jpg" alt="Jayendra Madaram" />
               <div className='hidden sm:grid absolute about__me  sm:w-w5p rounded-3xl z-10'></div>
               <img src="https://harshgoel.me/images/vectors/ellipse.svg" alt="Triangle 3d Vector" className="absolute  bottom-0 right-0 hidden w-1/4 z-0 md:block "></img>
             </div>
@@ -227,42 +227,42 @@ const Home: NextPage = () => {
               <div><BsCurrencyBitcoin className='w-14 h-14 p-3  rounded-full rotate-12 bg-black shadow-light-3xl' /></div>
               <div className='text-3xl text-slate-300 font-bold  text-center'>Block-Chain Development</div>
               <div className='text-lg italic  w-4/6 flex text-center items-center text-gray-300'>
-                Engaged Into blockchain development. building Dapps on ethereum , Avalanche , Near Protocol. Demonstrated success developing and seamlessly executing Smart contracts written in Solidity and RUST in defi and Dao structures.
+                Engaged into blockchain development. Building Dapps on ethereum , Avalanche , Near Protocol. Demonstrated success developing and seamlessly executing Smart contracts written in Solidity and RUST in defi and Dao structures.
               </div>
             </div>
             <div className='sm:w-1/2 xl:w-1/3 flex flex-col sm:h-1/3 space-y-3 justify-center items-center'>
               <div><BsHddStack className='w-14 h-14 p-3  rounded-full rotate-12 bg-black shadow-light-3xl' /></div>
               <div className='text-3xl text-slate-300 font-bold text-center'>Full Stack Engineering</div>
               <div className='text-lg italic  w-5/6 flex text-center items-center text-gray-300'>
-                Been a Full stack developer who can develop Neat asthetic UI/UX which are Seo First using Frameworks Like Nextjs. Familiar with several Api methodologies like Grpc , Rest , GROQ and Graphql.Can addapt Microservice Architecture using RabbitMq and nestjs and many more server side functionalities
+                Been a full stack developer who can develop neat aesthetic UI/UX which are Seo First using frameworks Like Nextjs. Familiar with several API methodologies like Grpc , Rest , GROQ and Graphql.Can addapt Microservice Architecture using RabbitMq and Nestjs and many more server side functionalities.
               </div>
             </div>
             <div className='sm:w-1/2 xl:w-1/3 flex flex-col sm:h-1/3 space-y-3 justify-center items-center'>
               <div><MdWeb className='w-14 h-14 p-3  rounded-full  bg-black shadow-light-3xl' /></div>
               <div className='text-3xl text-slate-300 font-bold text-center'>WebScrapping</div>
               <div className='text-lg italic  w-4/6 flex text-center items-center text-gray-300'>
-                Familiar with Scrapping Data from Web using tools like Selenium and beatifullsoup further designing automated Workflows to Organize , Analyize , visualize using tools like seaborn, excel. Further Storing it in Sql or NoSql DataBases
+                Familiar with scrapping data from Web using tools like Selenium and beautiful soup further designing automated workflows to Organize , Analyize , visualize using tools like seaborn, excel. Further Storing it in Sql or NoSql DataBases
               </div>
             </div>
             <div className='sm:w-1/2 xl:w-1/3 lg:pt-11 flex flex-col sm:h-1/3 space-y-3 justify-center items-center'>
               <div><TbSettingsAutomation className='w-14 h-14 p-3  rounded-full rotate-12 bg-black shadow-light-3xl' /></div>
               <div className='text-3xl text-slate-300 font-bold text-center'>Automation </div>
               <div className='text-lg italic  w-4/6 flex text-center items-center text-gray-300'>
-                Designing Various Bot for Social media like InstaGram , Discord , Twitter and Telegram. Automating workflows increasing Reach. Desinging Automated workflow of regular tasks with Raw Python and 3rd party SDK's.
+                Designing Various Bot for Social media like Instagram , Discord , Twitter and Telegram. Automating workflows increasing Reach. Desinging Automated workflow of regular tasks with Raw Python and 3rd party SDK's.
               </div>
             </div>
             <div className='sm:w-1/2 xl:w-1/3 lg:pt-11 flex flex-col sm:h-1/3 space-y-3 justify-center items-center'>
               <div><GiHighPunch className='w-14 h-14 p-3  rounded-full  bg-black shadow-light-3xl' /></div>
               <div className='text-3xl text-slate-300 font-bold text-center'>Martial Arts</div>
               <div className='text-lg italic  w-4/6 flex text-center items-center text-gray-300'>
-                Been a Twice National Gold Medal winner in the sport of Taekwondo. Personal Hobby developed into a passion which keeps me disciplined in professional Life.
+                Been a National Gold medalist twice in the sport of Taekwondo. Personal Hobby developed into a passion which keeps me disciplined in professional Life.
               </div>
             </div>
             <div className='sm:w-1/2 xl:w-1/3 lg:pt-11 flex flex-col sm:h-1/3 space-y-3 justify-center items-center'>
               <div><MdOutlineManageAccounts className='w-14 h-14 p-3 text-white rounded-full bg-black shadow-light-3xl' /></div>
               <div className='text-3xl text-slate-300 font-bold text-center'>Mentoring skills</div>
               <div className='text-lg italic  w-4/6 flex text-center items-center text-gray-300'>
-                Been as a Mentor for Several Blockchain projects at My college NGIT. Helped them being as a Project Manager from assinging tasks and moniterring version controll to Sharing resources and teaching the right way.
+                Been a Mentor for several Blockchain projects at my college NGIT. Helped them being as a Project Manager from assinging tasks and monitoring version control to Sharing resources and teaching the right way.
               </div>
             </div>
           </div>
@@ -271,7 +271,7 @@ const Home: NextPage = () => {
               <div className='flex items-center py-5 sm:px-16 w-full'>
                 <hr className="w-1/2  mr-1 border-slate-200" />
                 <div className='text-transparent xl:text-4xl text-lg md:text-2xl lg:text-3xl  italic font-semibold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400'>
-                  Here Few of My Finite Creations.
+                  Here are few of my finite creations.
                 </div>
               </div>
               <AnimationOnScroll animateIn='animate__fadeInRightBig' animateOnce={true}> <div className='h-full customscroll sm:px-20 px-5 flex space-x-6 overflow-x-scroll overflow-y-hidden' id='hirox' onScroll={() => {
@@ -316,11 +316,11 @@ const Home: NextPage = () => {
                 <div>
                   <div className='flex items-center space-x-2'>
                     <hr className="w-16 sm:w-24 mr-1 border-slate-200" />
-                    <div className='text-transparent text-lg font-semibold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400'>Meet and Greet !!</div>
+                    <div className='text-transparent text-lg font-semibold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400'>Meet and Greet!!</div>
                   </div>
                 </div>
               </div>
-              <h5 className=" xl:text-xl text-sm  pb-5 font-semibold font-sans text-slate-300 w-3/5 ">Impressed Already !! Schedule a 30 Min Gmeet or a Call with me  </h5>
+              <h5 className=" xl:text-xl text-sm  pb-5 font-semibold font-sans text-slate-300 w-3/5 ">Impressed Already!! Schedule a 30 Min Gmeet or a call with me.  </h5>
               <div className='justify-start space-x-5 animate-pulse  w-2/5 flex'>
                 <div className=' text-7xl font-extrabold'>
                   <div className='flex space-x-4'>

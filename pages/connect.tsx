@@ -10,6 +10,7 @@ import Navbar from '../components/Navbar'
 import { useRouter } from 'next/router'
 import React, { useState } from "react";
 import { InlineWidget } from "react-calendly";
+import Link from 'next/link'
 
 const Connect: NextPage = () => {
     const router = useRouter()
@@ -80,14 +81,22 @@ const Connect: NextPage = () => {
                             </div>
                             <h5 className="text-lg  font-normal text-slate-300 lg:w-3/5 text-violet  text-justify">Now you Can Schedule a Google Meet with Meet directly Or Reach Out To me Through Socials</h5>
                             <div className='justify-start space-x-5 md:w-4/5 flex'>
-                                <BsGithub className=' hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-black  cursor-pointer text-violet-100' />
-                                <BsLinkedin className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-blue-900  cursor-pointer text-violet-100 hover:bg-white rounded-md' />
-                                <SiGmail className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-red-400  cursor-pointer text-violet-100' />
-                                <BsInstagram className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-insta  cursor-pointer text-violet-100 ' />
-                                <BsTwitter className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-blue-400  cursor-pointer text-violet-100' />
-                                <BsYoutube onClick={() => { }} className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-red-500  cursor-pointer text-violet-100' />
-                                <SiLeetcode onClick={() => { }} className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-yellow-300  cursor-pointer text-violet-100' />
-                                <SiDiscord onClick={() => { }} className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-violet-500  cursor-pointer text-violet-100' />
+                                <Link href={"https://github.com/jayendramadaram"}><BsGithub className=' hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-black  cursor-pointer text-violet-100' /></Link>
+
+                                <Link href="https://www.linkedin.com/in/jayendra-madharam-961922200/"><BsLinkedin className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-blue-900  cursor-pointer text-violet-100 hover:bg-white rounded-md' /></Link>
+
+                                <Link href={"mailto:dimebeatengreen8@gmail.com"}><SiGmail className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-red-400  cursor-pointer text-violet-100' /></Link>
+
+                                <Link href={"https://www.instagram.com/jayendra__02"}><BsInstagram className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-insta  cursor-pointer text-violet-100 ' /></Link>
+
+                                <Link href={"https://twitter.com/jayendra__02"}><BsTwitter className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-blue-400  cursor-pointer text-violet-100' /></Link>
+
+                                <Link href={"https://www.youtube.com/channel/UCU-GtEsT63xs4onwQLvmFPA"}><BsYoutube onClick={() => { }} className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-red-500  cursor-pointer text-violet-100' /></Link>
+
+                                <Link href={"https://leetcode.com/jayendramadara/"}><SiLeetcode onClick={() => { }} className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-yellow-300  cursor-pointer text-violet-100' /></Link>
+
+                                <Link href={"https://discord.gg/uVkttXBM"}><SiDiscord onClick={() => { }} className='hover:scale-150 transition-all delay-75 ease-in-out duration-200 hover:text-violet-500  cursor-pointer text-violet-100' /></Link>
+
                             </div>
                         </div>
                         <div className='flex  justify-center items-center md:w-1/2 '>

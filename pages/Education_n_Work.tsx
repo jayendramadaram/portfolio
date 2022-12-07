@@ -40,7 +40,7 @@ const Education: NextPage = () => {
                         </div>
                     </div>
                 </div>
-                <h5 className="text-lg w-2/5 font-normal text-slate-300  text-violet  text-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Along the path i have been into many fields currently I am completely Invested in decentralizing the ERA. I am enthusiastic about building talented Ai machines currently I am exploring the feild. I often practice martial arts too keep me disciplined and motivated indeed. Ahh i can talk about Space and COSMOS for dear Life.</h5>
+                <h5 className="text-lg w-2/5 font-normal text-slate-300  text-violet  text-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Along the path i have been into many fields, currently I am completely Invested in decentralizing the ERA. I am enthusiastic about building talented AI machines. Currently, I am exploring the feild. I often practice martial arts to keep me disciplined and motivated indeed. Ahh i can talk about Space and COSMOS for dear Life.</h5>
                 <div className=' animate-pulse flex'>
                     <div className=' text-3xl font-extrabold'>
                         <div className='flex lg:flex-row flex-col space-x-4'>
@@ -102,7 +102,7 @@ const Education: NextPage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <h5 className="text-lg md:w-2/5 font-normal text-slate-300  text-violet w-4/5 text-center">Along the path i have been into many fields currently I am completely Invested in decentralizing the ERA. I am enthusiastic about building talented Ai machines currently I am exploring the feild. I often practice martial arts too keep me disciplined and motivated indeed. Ahh i can talk about Space and COSMOS for dear Life.</h5>
+                            <h5 className="text-lg md:w-2/5 font-normal text-slate-300  text-violet w-4/5 text-center">Along the path i have been into many fields currently I am completely Invested in decentralizing the ERA. I am enthusiastic about building talented AI machines currently I am exploring the field. I often practice martial arts to keep me disciplined and motivated indeed. Ahh i can talk about Space and COSMOS for dear Life.</h5>
                             <div className=' animate-pulse flex'>
                                 <div className=' text-3xl font-extrabold'>
                                     <div className='flex  space-x-4'>
@@ -128,8 +128,8 @@ const Education: NextPage = () => {
 
                                     </h4>
                                     <p className='font-light text-lg'>
-                                        Completed My HighSchool with 9.8 CGPA. Been a space geek whole time and this era where i started my martial arts Journey
-                                        been into Nasa Space settlement contest working on Project <a className='underline italic cursor-pointer font-thin' href='https://drive.google.com/file/d/1mZuTISFvR9Rr-JEf0rotGqOEP5J_Kssp/view?usp=sharing'>Jeeva</a>
+                                        Graduated my HighSchool with 9.8 CGPA. Been a space geek whole time and this era where i started my martial arts Journey
+                                        Been into Nasa Space settlement contest working on Project <a className='underline italic cursor-pointer font-thin' href='https://drive.google.com/file/d/1mZuTISFvR9Rr-JEf0rotGqOEP5J_Kssp/view?usp=sharing'>Jeeva</a>
                                     </p>
                                 </VerticalTimelineElement>
                                 <VerticalTimelineElement
@@ -144,7 +144,7 @@ const Education: NextPage = () => {
                                         Narayana Junior college
                                     </h4>
                                     <p>
-                                        Spent years enhancing skills in calculus, algebra and other sciences. was a passout with 95.5%
+                                        Spent years enhancing skills in calculus, algebra and other sciences. passed out with 95.5%
                                     </p>
                                 </VerticalTimelineElement>
                                 <VerticalTimelineElement
@@ -159,7 +159,7 @@ const Education: NextPage = () => {
                                         Neil Gogte Institue of Technology
                                     </h4>
                                     <p>
-                                        Currently perusing my under Bachelors in Technologies. and Doing my best to building Optimized programming logic and masterring web3
+                                        Currently persuing my  Bachelors in Technology and doing my best in building Optimized programming logic and masterring web3
                                     </p>
                                 </VerticalTimelineElement>
                                 <VerticalTimelineElement
@@ -171,7 +171,7 @@ const Education: NextPage = () => {
                                 >
                                     <h3 className="vertical-timeline-element-title">Competitive Programming</h3>
                                     <h4 className="vertical-timeline-element-subtitle">
-                                        Codechef, Hackerrank
+                                        Codechef, Hackerrank,
                                     </h4>
                                     <p>
                                         Been a 3 Star python Programmer in codechef and 6 star coder in Hackerrank-python.
