@@ -185,7 +185,7 @@ const Education: NextPage = () => {
                                     icon={<SiFreelancer />}
                                 ><h3 className="vertical-timeline-element-title">Freelancing</h3>
                                     <p>
-                                        Been a freelance web developer and Automation engineer. worked with clients like  fashon studio and Dripin Organization
+                                        Been a freelance web developer and Automation engineer. worked with clients like  fashion studio and Dripin Organization
                                     </p>
                                 </VerticalTimelineElement>
                                 <VerticalTimelineElement
@@ -199,7 +199,7 @@ const Education: NextPage = () => {
                                         British Dsire ecommerce
                                     </h4>
                                     <p>
-                                        Helped the ecommerce startup setting up data flows and analysing/visualizing data. worked with graphql based ecomeerce shopify data designed shopify pulgins for enhancement.
+                                        Helped the ecommerce startup setting up data flows and analysing/visualizing data. Worked with graphql based ecomeerce shopify data designed shopify pulgins for enhancement.
                                     </p>
                                 </VerticalTimelineElement>
                                 <VerticalTimelineElement
@@ -214,7 +214,7 @@ const Education: NextPage = () => {
                                         Full stack engineer
                                     </h4>
                                     <p>
-                                        Was part of platform development for a medtech startup initiated at NGIT. designed entire backend with microservice architecture followed by Ai processing
+                                        Was a part of platform development for a medtech startup initiated at NGIT. Designed entire backend with microservice architecture followed by AI processing.
                                     </p>
                                 </VerticalTimelineElement>
                                 <VerticalTimelineElement
@@ -226,7 +226,7 @@ const Education: NextPage = () => {
                                     <h3 className="vertical-timeline-element-title">Blockchain development</h3>
 
                                     <p>
-                                        Spent enormous time and got deeply invsted into blockchain development and getting perfection in writing secure smart contracts in Solidity and Rust. Mentorring teams at NGIT working on blockchain projects.
+                                        Spent enormous time and got deeply invested into blockchain development and acquiring perfection in writing secure smart contracts in Solidity and Rust. Mentoring teams at NGIT working on blockchain projects.
                                     </p>
                                 </VerticalTimelineElement>
                                 <VerticalTimelineElement
@@ -237,7 +237,7 @@ const Education: NextPage = () => {
                                     <h3 className="vertical-timeline-element-title">Hackathons</h3>
 
                                     <p>
-                                        Was part of team finalized for Smart India Hackathon 22 finale. Secured 2nd position in Megathon22
+                                        Was a part of team finalized for Smart India Hackathon 22 finale. Secured 2nd position in Megathon22
                                     </p>
                                 </VerticalTimelineElement>
                             </VerticalTimeline>
