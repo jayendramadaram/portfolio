@@ -8,7 +8,7 @@ const HeadMeta = () => {
         <meta name="robots" content="follow" />
         <meta name="robots" content="index" />
 
-        <meta name="google-site-verification" content="NMiR7h6mmhVppVqCMYszuw_d7I5jakn9jr8VqvIgJUI" />
+        <meta name="google-site-verification" content="HScTZAElEOy08fCZdI8vwSU3O0-eLxjX-4-066Kxea4" />
         <link rel="icon" href="/tabimage.png"></link>
         <meta name="description" content="Jayendra Madaram's personal portfolio !! 19 year old blockchain developer studying at Neil gogte institute of technology and a martial artist" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
