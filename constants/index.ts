@@ -11,8 +11,7 @@ export const Projects = [
       "Docker",
       "Tailwind",
     ],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/projects/hyperledger.png",
+    imgLink: "https://i.ibb.co/Lr2GRzD/hyperledger.png",
     Link: "https://github.com/jayendramadaram/Hyperledger-Based-real-estate",
   },
   {
@@ -27,8 +26,7 @@ export const Projects = [
       "OpenZeppelin",
       "ropsten",
     ],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/projects/defi.png",
+    imgLink: "https://i.ibb.co/Wz1hDkm/defi.png",
     Link: "https://github.com/jayendramadaram/Defi-protocol",
   },
   {
@@ -43,8 +41,7 @@ export const Projects = [
       "TailWind",
       "Nextjs",
     ],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/projects/nft.png",
+    imgLink: "https://i.ibb.co/9wD8m73/nft.png",
     Link: "https://github.com/jayendramadaram/NFT-MINTING-SITE_META_WAIFUS",
   },
   {
@@ -60,8 +57,7 @@ export const Projects = [
       "Vite",
       "react",
     ],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/projects/near-funding.png",
+    imgLink: "https://i.ibb.co/W5bFTzH/near-funding.png",
     Link: "https://github.com/jayendramadaram/Near-Protocol-Projects",
   },
   {
@@ -77,8 +73,7 @@ export const Projects = [
       "Vite",
       "react",
     ],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/projects/avax-voting.png",
+    imgLink: "https://i.ibb.co/wpD4cPw/avax-voting.png",
     Link: "https://github.com/jayendramadaram/Voting_ON_AVALANCHE",
   },
   {
@@ -86,8 +81,7 @@ export const Projects = [
     description:
       "Complete Youtube Clone Built using React and State Managament Library using Redux. Entire Auth process was carried out with Firebase Google Authentication and Styling with Css Framework Sass",
     tags: ["React", "Sass", "Redux", "FireBase", "YouTube Data V3 api"],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/Youtube-Clone/main/Screenshot%202021-07-25%20215524.jpg",
+    imgLink: "https://i.ibb.co/YLzJVGb/ytclone.jpg",
     Link: "https://github.com/jayendramadaram/Youtube-Clone",
   },
   {
@@ -95,8 +89,7 @@ export const Projects = [
     description:
       "National Education Databse visualized on Web; using interactive react Components to visualize and track progress of Education workflow in the Nation. Built automated workflows and triggers to Automatically predict metrics like dropout Rate. Project with which my Team made into National hackathon Finals",
     tags: ["React", "Vite", "Apex-charts", "Tailwind", "express", "MongoDB"],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/projects/sih-frontend.png",
+    imgLink: "https://i.ibb.co/7Vk3rqS/sih-frontend.png",
     Link: "https://github.com/Team-Codinos/Sih-frontend",
   },
   {
@@ -112,8 +105,7 @@ export const Projects = [
       "Keras",
       "T-flow",
     ],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/projects/genetics.png",
+    imgLink: "https://i.ibb.co/Mh5WX7t/genetics.png",
     Link: "https://github.com/NGIT-Open-Source/research-backend",
   },
   {
@@ -121,8 +113,7 @@ export const Projects = [
     description:
       "Full Stack  Clone of Blogging Site Medium with Sanity as backend content management System and GROQ query Language. Components built based on Hybrid Server Side Rendering Framework Nextjs For Full controll over SEO bots to crawl on blogs",
     tags: ["Nextjs", "Sanity", "GROQ", "Tailwind", "Typescript"],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/projects/medium.png",
+    imgLink: "https://i.ibb.co/gWw5fYH/medium.png",
     Link: "https://github.com/NGIT-Open-Source/research-backend",
   },
   {
@@ -130,8 +121,7 @@ export const Projects = [
     description:
       "Solution Which bought made us stand 2nd position in Megathon22; App made Exclusively for ruaral regions for remote disgnosis with AI Models with OTP based Authentication. App includes Assigning Doctor to patient and recording Medical History of a Patient",
     tags: ["Python", "Flask", "MongoDB", "reddis-Docker", "Twillio", "Keras"],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/projects/megathon.png",
+    imgLink: "https://i.ibb.co/7t8ksD6/megathon.png",
     Link: "https://github.com/jayendramadaram/megathon",
   },
   {
@@ -139,14 +129,14 @@ export const Projects = [
     description:
       "Resuable Python Scripts to Scrap Data from job Portals and Parses the data with lxml tooling and Beatifullsoup Library further organising data and storing it into Excel and visualizing it with Seaborn Static Pages are scrapped Usint HTTPrequests dynamic Content is Scrapped using Selenium",
     tags: ["Python", "BeatifullSoup", "lxml", "seaborn", "Selenium", "csv"],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/projects/webscrapping.png",
+    imgLink: "https://i.ibb.co/gDLWP0Z/webscrapping.png",
     Link: "https://github.com/jayendramadaram/automaions_webscrraping_visualization",
   },
 
   {
     name: "Project Resell [Secondary product Market]",
-    description: "",
+    description:
+      "User Can List products or they can buy products based on near By location. project follows microservice Architecture.",
     tags: [
       "Nextjs",
       "Docker",
@@ -159,8 +149,12 @@ export const Projects = [
       "Ellastic Search",
       "RabbitMq",
     ],
-    imgLink:
-      "https://raw.githubusercontent.com/jayendramadaram/App-to-resell-your-products/main/Figma%20UI.png",
+    imgLink: "https://i.ibb.co/FD2KXnz/appresell.png",
     Link: "https://github.com/NGIT-Open-Source/research-backend",
   },
 ];
+
+/**
+<img src="https://i.ibb.co/gMLVjFV/spacegame.png" alt="spacegame" border="0">
+<img src="https://i.ibb.co/Lr2GRzD/hyperledger.png" alt="hyperledger" border="0">
+ */

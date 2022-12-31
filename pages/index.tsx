@@ -16,6 +16,7 @@ import py from "../assets/py.png"
 import rs from "../assets/rs.png"
 import truffle from "../assets/truffle.png"
 import hardhat from "../assets/hardhat.png"
+import SELENIUM from "../assets/selenium.png"
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 // import Naruto from "../assets/Naruto.jpg"
 
@@ -153,7 +154,7 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className='flex  justify-center items-center xl:w-1/2 '>
-              <img className=' bg-pink-50 w-96 sm:w-w5p  rotate-12 z-20 rounded-3xl hover:rotate-0 transition-all cursor-pointer delay-75 duration-200' height={450} src="https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/Naruto.jpg" alt="Jayendra Madaram" />
+              <img className=' bg-pink-50 w-96 sm:w-w5p  rotate-12 z-20 rounded-3xl hover:rotate-0 transition-all cursor-pointer delay-75 duration-200' height={450} src="https://i.pinimg.com/564x/49/cd/7e/49cd7e6775ba29aeb548f0df0f67969d.jpg" alt="Jayendra Madaram" />
               <div className='hidden sm:grid absolute about__me  sm:w-w5p rounded-3xl z-10'></div>
               <img src="https://harshgoel.me/images/vectors/ellipse.svg" alt="Triangle 3d Vector" className="absolute  bottom-0 right-0 hidden w-1/4 z-0 md:block "></img>
             </div>
@@ -217,7 +218,8 @@ const Home: NextPage = () => {
                 <Image src={truffle} alt="MongoDB" height={100} className="lg:h-14 w-8 lg:w-auto sm:h-8 h-8 mt-7" />
                 <Image src={hardhat} alt="MongoDB" height={70} className="lg:h-14 w-8 lg:w-auto sm:h-8 h-8 mt-7" />
                 {/* <Image src={Selenium} alt="Selenium" height={70} className="lg:h-14 w-8 lg:w-auto h-8 mt-7" /> */}
-                <img src="https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/selenium.png" alt="Git" className="lg:h-32 w-8 w-auto h-16 mt-7" />
+                {/* <img src="https://raw.githubusercontent.com/jayendramadaram/portfolio/main/assets/selenium.png" alt="Git" className="" /> */}
+                <Image alt='' src={SELENIUM} className="lg:h-32 w-auto h-16 mt-7" />
               </div></AnimationOnScroll>
 
             </div>
