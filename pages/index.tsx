@@ -148,7 +148,7 @@ const Home: NextPage = () => {
                 <button className='px-7 py-3 border rounded-lg border-red-200 shadow-xl hover:shadow-gray-500  bg-red-200 hover:bg-transparent hover:text-white text-slate-900 transition ease-in-out delay-150 duration-300' onClick={() => router.push("https://drive.google.com/file/d/1buUbXLgHfsBKHQqa-I8pLrj_fKMwLJMs/view?usp=sharing")}>
                   Resume
                 </button>
-                <button className='px-7  py-3 border shadow-lg hover:shadow-gray-600 rounded-lg hover:bg-red-200 hover:text-slate-900 transition ease-in-out delay-150 duration-300 border-red-200'>
+                <button className='px-7  py-3 border shadow-lg hover:shadow-gray-600 rounded-lg hover:bg-red-200 hover:text-slate-900 transition ease-in-out delay-150 duration-300 border-red-200' onClick={() => router.push("https://github.com/jayendramadaram")}>
                   Github
                 </button>
               </div>
